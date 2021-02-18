@@ -1,2 +1,2 @@
-# Horition
+# Horition mod
 Secret
