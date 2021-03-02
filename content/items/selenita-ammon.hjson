@@ -1,0 +1,16 @@
+name: selenita amoon
+description : slow ammunition but when colliding with an enemy it fragments into mini rays
+hardness: 2
+cost: 0
+color:D06B53FF
+explosiveness: 0.1
+radioactivity:  0.1
+flammability: 0.0
+research:{
+  parent: steel-ammon
+  requirements:[
+	  selenita/100
+	  steel/200
+	  thorium/100
+  ]
+  }

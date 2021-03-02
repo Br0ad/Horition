@@ -1,0 +1,29 @@
+name : "Evaporator"
+description: "Melt scrap into slag with higher speed"
+health: 600
+size: 2
+hasItems: true
+hasLiquids: true
+itemCapacity: 30
+liquidCapacity: 500
+craftTime: 40
+craftEffect: steam
+consumes: {
+  power: 4
+  items: {
+    items: [
+      scrap/3
+    ]
+  }
+  }
+requirements: [
+  metaglass/100
+  titanium/300
+  tugteno/35
+  graphite/30
+]
+category: crafting
+research: melter
+ambientSound: machine
+ambientSoundVolume: 0.3
+outputLiquid: slag/30

@@ -1,0 +1,22 @@
+
+name: Sprayer
+description: "begins to slowly release bullets but begins to increase firing speed each time"
+health: 800
+size: 2
+range: 300
+reloadTime: 50
+shots: 1
+rotateSpeed: 5
+maxAmmo: 30
+inaccuracy: 10
+ammoUseEffect: casing3
+smokeEffect: none
+shootSound: shootBig
+requirements:[
+    titanium/240
+    selenita/100
+    tugteno/140
+    steel/80
+]
+research: Trusher
+category: turret

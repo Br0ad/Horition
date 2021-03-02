@@ -1,0 +1,26 @@
+
+name: Tripo
+description: "shoot in 4 directions separated by 90 degrees apart then start spinning by attack attracting your enemies"
+health: 400
+size: 2
+rotateSpeed: 0.0
+	shootCone: 360
+	range: 200
+	recoilAmount: 0
+	reloadTime: 10
+	inaccuracy: 0.0
+	ammoUseEffect: none
+	shots: 4
+	spread: 90
+	maxAmmo: 150
+	shootSound: missile
+	itemCapacity: 250
+requirements:[
+    titanium/250
+    silicon/60
+    tugteno/120
+    steel/50
+    graphite/60
+]
+research: star
+category: turret

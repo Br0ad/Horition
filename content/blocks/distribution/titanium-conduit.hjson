@@ -1,0 +1,14 @@
+Type: BufferedItemBridge
+name: Titanium Conduit
+description: Transports items over terrain or buildings
+health: 200
+range: 8
+speed: 80
+bufferCapacity: 20
+requirements: [
+  copper/4
+  lead/4
+  titanium/6
+]
+category: distribution
+research: bridge-conveyor

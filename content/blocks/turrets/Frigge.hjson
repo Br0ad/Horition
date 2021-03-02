@@ -1,0 +1,20 @@
+localizedName: "Frigge"
+description: "It is a launcher of pure energy that when colliding with an enemy explodes"
+size: 2
+range: 128
+health: 800
+reloadTime: 35
+shots: 1
+inaccuracy: 0
+shootEffect: none
+smokeEffect: none
+shootSound: release
+outlineIcon: true
+requirements: [
+  tugteno/230
+  silicon/60
+  lead/250
+  copper/300
+]
+category: turret
+research: arc

@@ -1,0 +1,10 @@
+type: Wall
+name: Steel Wall
+description: It is a very resistant and cheap wall to make
+size: 1
+healt: 1255
+requirements: [
+steel/6
+]
+research: tugteno-wall-large
+category: defense

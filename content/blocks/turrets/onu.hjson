@@ -1,0 +1,19 @@
+localizedName: onu
+description: "creates a laser starts spinning attacking everything in its radius"
+size: 1
+range: 140
+health: 800
+reloadTime: 120
+shots: 1
+inaccuracy: 0
+smokeEffect: none
+shootSound: laser
+outlineIcon: true
+requirements: [
+  tugteno/130
+  silicon/100
+  steel/100
+  copper/300
+]
+category: turret
+research: salvo

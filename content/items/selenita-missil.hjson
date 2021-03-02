@@ -1,0 +1,16 @@
+name: selenita missil
+description : It is a missile that when colliding releases a flock of mini missiles
+hardness: 4
+cost: 0
+color:D06B53FF
+explosiveness: 2.0
+radioactivity:  1.0
+flammability: 1.0
+research:{
+  parent: steel-missil
+  requirements:[
+	  titanium/500
+	  copper/500
+	  selenita/200
+  ]
+  }

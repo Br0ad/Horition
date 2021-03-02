@@ -1,0 +1,22 @@
+localizedName: StarShip
+description: "creates a 4 laser starts spinning attacking everything in its radius"
+size: 3
+range: 300
+health: 800
+reloadTime: 100
+shots: 1
+inaccuracy: 0
+smokeEffect: none
+shootSound: laser
+outlineIcon: true
+requirements: [
+  tugteno/350
+  silicon/250
+  lead/300
+  copper/500
+  selenita/210
+  steel/200
+  Graphene/150
+]
+category: turret
+research: sword

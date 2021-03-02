@@ -1,0 +1,32 @@
+name: Ionic Drill
+description: A super ionic drill that has a super powerful laser that extracts materials super fast but its consumption is very low in energy
+drillTime: 100
+tier: 10
+warmupSpeed: 0.02
+liquidBoostIntensity: 4
+liquidCapacity: 10000
+rotateSpeed: 1
+hasPower: true
+heatColor: CCFFFFFF
+drawRim: false
+size: 5
+consumes: {
+  power: 20
+    liquid: {
+          liquid: oil-gel
+          amount: 2
+          booster: true
+           optional: true
+        }
+  }
+requirements: [
+  Graphene/800
+  titanium/2000
+  selenita/200
+  steel/500
+  silicon/300
+  tugteno/500
+  thorium/1000
+]
+category: production
+research: magnetig-drill

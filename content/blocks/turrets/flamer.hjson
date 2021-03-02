@@ -1,0 +1,23 @@
+name: "Flamer"
+description: "the flamer is a fire lance that quickly attacks your ground enemies"
+health: 1200
+size: 3
+shots: 10
+burstSpacing: 3
+reloadTime: 30
+range:200
+maxAmmo: 40
+targetAir: false
+shootEffect: none
+smokeEffect: none
+shootSound: flame
+requirements:[
+    tugteno/500
+    copper/350
+    titanium/250
+    steel/250
+    graphite/100
+    selenita/150
+]
+research: tsunami
+category: turret

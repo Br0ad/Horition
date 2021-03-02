@@ -1,0 +1,22 @@
+localizedName: Pulsar Matter
+description: Generate continuous pulses that can cover a large area generating rings that do continuous damage
+size: 3
+range: 400
+health: 640
+rotateSpeed: 10
+reloadTime: 200
+shots: 1
+inaccuracy: 0
+shootEffect: none
+smokeEffect: none
+shootSound: tractorbeam
+outlineIcon: true
+requirements: [
+  titanium/429
+  silicon/80
+  tugteno/250
+  steel/120
+  copper/200
+]
+category: effect
+research: pulsar-generator

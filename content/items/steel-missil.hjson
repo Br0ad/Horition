@@ -1,0 +1,16 @@
+name: steel missil
+description : It is a missile that releases an explosion that can be very useful for disarming airborne enemies.
+hardness: 3
+cost: 0
+color:4A4545FF
+explosiveness: 9.9
+radioactivity:  0.0
+flammability: 1.0
+research:{
+  parent: tugteno-missil
+  requirements:[
+	  titanium/500
+	  lead/500
+	  steel/100
+  ]
+  }

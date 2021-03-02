@@ -1,0 +1,13 @@
+Type: StackConveyor
+name: Tungsteno Conveyor
+description: Transports items forward in batches. Accepts items at the back, and unloads them in three directions at the front. Requires multiple loading and unloading points for peak throughput
+health: 100
+speed: 0.1
+itemCapacity: 20
+requirements: [
+  tugteno/2
+  silicon/1
+  titanium/2
+]
+category: distribution
+research: plastanium-conveyor

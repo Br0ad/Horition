@@ -1,0 +1,16 @@
+
+name: Steel
+description: a lightweight, strong cotton material is very useful for building heavy-duty machines
+hardness: 2
+cost: 3
+color: 747474FF
+explosiveness: 0.0
+flammability: 0.0
+research:{
+  parent: tugteno
+  requirements:[
+	  titanium/5000
+	  copper/5000
+	  lead/5000
+  ]
+  }

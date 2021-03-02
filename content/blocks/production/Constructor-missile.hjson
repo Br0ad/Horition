@@ -1,0 +1,20 @@
+localizedName: Factory Missil
+description: Craft missiles with ease using your robotic hands to do the tricky job
+itemCapacity: 40
+liquidCapacity  : 0
+size  : 3
+health  : 1000
+craftEffect  :   pulverizeMedium
+updateEffect  :   none
+dumpToggle  : false
+requirements: [
+   selenita/400
+   titanium/800
+   lead/900
+   tugteno/600
+   steel/700
+ ]
+category: crafting
+research: Launcher
+ambientSound: machine
+ambientSoundVolume: 0.3

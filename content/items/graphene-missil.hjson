@@ -1,0 +1,16 @@
+name: graphene missil
+description : It is a missile that chases its enemies when colliding, it releases an explosion
+hardness: 5
+cost: 0
+color:392E40FF
+explosiveness: 5.0
+radioactivity:  0.0
+flammability: 2.0
+research:{
+  parent: selenita-missil
+  requirements:[
+	  titanium/500
+	  thorium/500
+	  Graphene/100
+  ]
+  }

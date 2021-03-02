@@ -1,0 +1,20 @@
+
+name: Trunsher
+description: "it's a small special bullet launcher"
+health: 250
+size: 1
+range: 150
+reloadTime: 40
+shots: 5
+maxAmmo: 20
+inaccuracy: 0
+ammoUseEffect: casing3
+smokeEffect: none
+shootSound: shootBig
+requirements:[
+    titanium/120
+    tugteno/120
+    steel/80
+]
+research: minigun
+category: turret

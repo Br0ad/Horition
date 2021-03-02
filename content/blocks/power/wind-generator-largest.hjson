@@ -1,0 +1,19 @@
+name: Wind Generator
+description: It is a small wind generator that can generate energy constantly, it uses selenite crystals to transform the speed of the shaft into clean energy but when there is another atmospheric phenomenon storm, the generator will suffer an increase in the speed of its blades as a consequence increases the energy
+size: 3
+health: 1000
+hasPower : true
+outputsPower : true
+consumesPower : false
+buildCostMultiplier : 6
+breakable : true
+solid : true
+requirements: [
+  tugteno/600
+  titanium/200
+  steel/120
+  selenita/150
+  silicon/100
+]
+category: power
+research: wind-generator-medium

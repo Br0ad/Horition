@@ -1,0 +1,33 @@
+name : steel Smelter
+description: make steel easily with titanium and water with these materials you can convert from titanium to steel
+health: 400
+size: 2
+hasItems: true
+hasLiquids: true
+itemCapacity: 30
+craftTime: 100
+craftEffect: steam
+consumes: {
+  power: 1
+  items: {
+    items: [
+      titanium/2
+    ]
+  }
+  liquid: {
+      liquid: water
+      amount: 0.2
+    }
+  }
+requirements: [
+  copper/200
+  titanium/100
+  graphite/50
+  silicon/50
+  tugteno/20
+]
+category: crafting
+research: presCompres
+ambientSound: machine
+ambientSoundVolume: 0.3
+outputItem: steel/1

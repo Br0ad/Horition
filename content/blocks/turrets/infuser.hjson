@@ -1,0 +1,20 @@
+
+name: "Homming"
+description: "Divider missile launcher that when colliding divide according to the material can be divided into more or fewer projectiles"
+health: 250
+size: 1
+range: 250
+reloadTime: 60
+shots: 1
+maxAmmo: 20
+shootEffect: none
+smokeEffect: none
+shootSound: lasershoot
+requirements:[
+    titanium/50
+    tugteno/25
+  silicon/10
+  graphite/35
+]
+research: hail
+category: turret

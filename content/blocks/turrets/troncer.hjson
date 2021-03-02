@@ -1,0 +1,27 @@
+
+name: Troncer
+description: "it's a very good dual machine gun"
+health: 800
+size: 3
+range: 200
+reloadTime: 10
+inaccuracy: 3
+recoilAmount: 3
+shots: 2
+spread: 17
+shootShake: 0
+shootCone: 24
+xRand: 3
+maxAmmo: 30
+ammoUseEffect: casing2
+smokeEffect: none
+shootSound: shootBig
+requirements:[
+    titanium/500
+    tugteno/350
+    steel/250
+    Graphene/130
+    lead/500
+]
+research: sprayer
+category: turret

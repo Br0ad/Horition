@@ -1,0 +1,26 @@
+
+name: Moon
+description: "shoots in 8 directions then they begin to rotate forming spirals that cover a large part of their area"
+health: 800
+size: 3
+rotateSpeed: 0.0
+	shootCone: 360
+	range: 250
+	recoilAmount: 0
+	reloadTime: 7
+	inaccuracy: 0.0
+	ammoUseEffect: none
+	shots: 8
+	spread: 45
+	maxAmmo: 150
+	shootSound: missile
+	itemCapacity: 250
+requirements:[
+    titanium/340
+    silicon/130
+    tugteno/210
+    steel/150
+    Graphene/80
+]
+research: Tripo
+category: turret

@@ -1,0 +1,22 @@
+localizedName: "[yellow]Star[pink]Fury[]"
+description: "shoot stars with great destructive power so you can destroy your enemies"
+size: 3
+range: 328
+health: 800
+reloadTime: 120
+shots: 1
+inaccuracy: 0
+shootEffect: none
+smokeEffect: none
+shootSound: Star_wing
+outlineIcon: true
+requirements: [
+  tugteno/400
+  silicon/300
+  lead/10000
+  steel/400
+  Graphene/300
+  selenita/500
+]
+category: turret
+research: meltdown

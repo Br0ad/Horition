@@ -1,0 +1,22 @@
+
+name: "Seeker"
+description: "Seeker is missile launcher that fire special missiles according to their ammunition fires 2 msiles in a row"
+health: 600
+size: 2
+range: 300
+burstSpacing: 30
+reloadTime: 150
+shots: 2
+maxAmmo: 25
+shootEffect: none
+smokeEffect: none
+shootSound: missile
+requirements:[
+    titanium/250
+    silicon/130
+    tugteno/120
+    steel/60
+    graphite/50
+]
+research: infuser
+category: turret

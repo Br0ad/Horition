@@ -1,0 +1,21 @@
+localizedName: Sword
+description: "creates a  2 laser starts spinning attacking everything in its radius"
+size: 2
+range: 200
+health: 800
+reloadTime: 110
+shots: 1
+inaccuracy: 0
+smokeEffect: none
+shootSound: laser
+outlineIcon: true
+requirements: [
+  tugteno/350
+  silicon/150
+  steel/250
+  copper/500
+  selenita/120
+  Graphene/80
+]
+category: turret
+research: onu

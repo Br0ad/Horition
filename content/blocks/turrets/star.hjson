@@ -1,0 +1,24 @@
+
+name: Star
+description: "It is a turret that shoots circular way with 2 vertices, its attacks suck its enemies"
+health: 250
+size: 1
+rotateSpeed: 0.0
+	shootCone: 360
+	range: 145
+	recoilAmount: 0
+	reloadTime: 15
+	inaccuracy: 0.0
+	ammoUseEffect: none
+	shots: 2
+	spread: 180
+	maxAmmo: 150
+	shootSound: missile
+	itemCapacity: 250
+requirements:[
+    titanium/50
+    tugteno/30
+    steel/50
+]
+research: duo
+category: turret

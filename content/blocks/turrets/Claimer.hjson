@@ -1,0 +1,23 @@
+name: Claimer
+description: "the Claimer is a fire lance that quickly attacks your ground enemies"
+health: 2000
+size: 4
+shots: 10
+burstSpacing: 2
+reloadTime: 20
+range:400
+maxAmmo: 40
+targetAir: true
+shootEffect: none
+smokeEffect: none
+shootSound: flame
+requirements:[
+    tugteno/700
+    copper/350
+    titanium/450
+    steel/500
+    graphite/200
+    Graphene/200
+]
+research: flamer
+category: turret

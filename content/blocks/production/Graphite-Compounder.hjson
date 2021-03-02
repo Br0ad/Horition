@@ -1,0 +1,39 @@
+Type:GenericCrafter
+name:Graphite Compounder
+description:a Machine that produces Graphite very fast because it is no longer a limit because it uses Graphene to increase production with cryogen
+health: 1000
+size: 3
+hasItems: true
+hasLiquids: true
+craftTime: 300
+liquidCapacity: 80
+craftEffect: steam
+consumes: {
+  power: 5
+  items: {
+    items: [
+      coal/2
+    ]
+  }
+  liquid: {
+        liquid: cryofluid
+        amount: 0.4
+        
+      }
+}
+requirements: [
+  copper/200
+  titanium/300
+  silicon/100
+  lead/200
+  graphite/80
+  steel/100
+  tugteno/200
+  Graphene/100
+  selenita/30
+]
+category: crafting
+research: Selenita-Reformer
+ambientSound: machine
+ambientSoundVolume: 0.3
+outputItem: graphite/5

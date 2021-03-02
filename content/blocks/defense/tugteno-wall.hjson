@@ -1,0 +1,12 @@
+type: Wall
+name: Tugsteno Wall
+description: It is a very useful wall is resistant has the possibility to reflect the attacks
+size: 1
+healt:860
+flashHit: true
+chanceDeflect: 1
+requirements: [
+tugteno/6
+]
+research: titanium-wall-large
+category: defense

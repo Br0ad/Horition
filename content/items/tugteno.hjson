@@ -1,0 +1,16 @@
+
+name: tungsten
+description: a super resistant material that can be used for super resistant machines, I need tungsten to live tungsten ... tungsten
+hardness: 4
+cost: 2
+color: 76E9BFFF
+explosiveness: 0.0
+flammability: 0.0
+research:{
+  parent: silicon
+  requirements:[
+	  copper/5000
+	  lead/5000
+	  silicon/5000
+  ]
+  }

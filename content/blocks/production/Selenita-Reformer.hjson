@@ -1,0 +1,35 @@
+name : Selenita Reformer
+description: It is very oven that uses the power of selenite rays so that the sulfate extraction process is faster, consequently the production of selenite will be faster
+health: 800
+size: 3
+hasLiquids: true
+itemCapacity: 60
+liquidCapacity: 200
+hasItems: true
+craftTime: 200
+craftEffect: steam
+consumes: {
+  power: 5
+  items: {
+    items: [
+      sand/15
+      
+    ]
+  }
+  liquid: {
+        liquid: water
+        amount: 1
+      }
+}
+requirements: [
+  titanium/500
+  silicon/200
+  tugteno/300
+  steel/200
+  selenita/100
+]
+category: crafting
+research: Industrial-tungsten-compressor
+ambientSound: machine
+ambientSoundVolume: 0.3
+outputItem: selenita/4

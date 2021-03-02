@@ -1,0 +1,35 @@
+name : Industrial Tungsten Compressor
+description: It is an industrial press that produces more tungsten with its large pins that can press more material at the same time with the help of the heat of the slag, the combination of materials is faster
+health: 800
+size: 3
+hasLiquids: true
+itemCapacity: 40
+hasItems: true
+craftTime: 120
+craftEffect: steam
+consumes: {
+  power: 3
+  items: {
+    items: [
+      lead/6
+      titanium/6
+    ]
+  }
+  liquid: {
+        liquid: oil-gel
+        amount: 0.20
+      }
+}
+requirements: [
+  titanium/500
+  silicon/100
+  lead/300
+  tugteno/150
+  steel/200
+  selenita/50
+]
+category: crafting
+research: grafeno-Refiner
+ambientSound: machine
+ambientSoundVolume: 0.3
+outputItem: tugteno/5

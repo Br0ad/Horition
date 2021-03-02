@@ -1,0 +1,16 @@
+name: standar missil
+description : it is a normal missile that has nothing special
+hardness: 2
+cost: 0
+color:6E7080FF
+explosiveness: 1.0
+radioactivity:  0.0
+flammability: 0.0
+research:{
+  parent: Constructor-missile
+  requirements:[
+	  titanium/500
+	  lead/500
+	  copper/500
+  ]
+  }

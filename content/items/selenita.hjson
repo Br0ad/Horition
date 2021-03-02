@@ -1,0 +1,15 @@
+name: Selenita Cristal
+description: A material by itself is very useless but with certain electric or static charges it can generate magnetic fields such as amplifying the energy and saving much greater scope.
+hardness: 7
+cost: 6
+color: DC745AFF
+explosiveness: 0.0
+flammability: 0.0
+research:{
+  parent: Graphene
+  requirements:[
+	  titanium/5000
+	  steel/5000
+	  Graphene/1000
+  ]
+  }

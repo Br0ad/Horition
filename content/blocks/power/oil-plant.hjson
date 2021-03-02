@@ -1,0 +1,23 @@
+name: Liquid Combustion Plant
+Description : Uses Liquids flammability be used as power, More flammability Is More Power
+size: 3
+defaults: false
+health: 800
+hasLiquids: true
+hasItems: false
+powerProduction: 14
+itemDuration: 100
+minItemEfficiency: 10000000
+minLiquidEfficiency: 1.2
+maxLiquidGenerate: 0.5
+liquidCapacity: 100
+requirements: [
+  titanium/350
+  silicon/200
+  tugteno/100
+  metaglass/100
+]
+category: power
+research: differential-generator
+ambientSound: smelter
+ambientSoundVolume: 0.05

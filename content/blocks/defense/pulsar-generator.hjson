@@ -1,0 +1,21 @@
+localizedName: Pulsar Generator
+description: Generate continuous pulses that can cover a large area generating rings that do continuous damage
+size: 2
+range: 200
+health: 320
+rotateSpeed: 10
+reloadTime: 200
+shots: 1
+inaccuracy: 0
+shootEffect: none
+smokeEffect: none
+shootSound: tractorbeam
+outlineIcon: true
+requirements: [
+  titanium/250
+  silicon/100
+  tugteno/50
+  steel/80
+]
+category: effect
+research: mend-projector

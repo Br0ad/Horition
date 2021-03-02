@@ -1,0 +1,36 @@
+name: Oil Mixer
+description: Synthesize Petrol from Oil, requires low power but lots of oil
+health: 800
+size: 3
+hasItems: true
+hasLiquids: true
+itemCapacity: 40
+liquidCapacity: 120
+craftTime: 200
+craftEffect: steam
+consumes: {
+  power: 7
+  items: {
+    items: [
+      coal/5
+    ]
+  }
+  liquid: {
+      liquid: oil
+      amount: 0.6
+    }
+  }
+requirements: [
+  copper/400
+  titanium/500
+  graphite/120
+  silicon/100
+  tugteno/200
+  steel/100
+  selenita/100
+]
+category: crafting
+research: Industrial-tungsten-compressor
+ambientSound: machine
+ambientSoundVolume: 0.3
+outputLiquid: oil-gel/100

@@ -1,0 +1,22 @@
+localizedName: "[blue]Dremur[red]Chaos[]"
+description: "shoot stars with great destructive power so you can destroy your enemies"
+size: 4
+range: 528
+health: 800
+reloadTime: 200
+shots: 1
+inaccuracy: 0
+shootEffect: none
+smokeEffect: none
+shootSound: release
+outlineIcon: true
+requirements: [
+  tugteno/600
+  silicon/350
+  steel/500
+  copper/1000
+  Graphene/350
+ selenita/400
+]
+category: turret
+research: StarFury

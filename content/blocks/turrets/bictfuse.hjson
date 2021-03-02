@@ -1,0 +1,23 @@
+
+name: Stir Fuse
+description: "the stir fuse is a shotgun to attack from afar or from close range the smaller its bullet the more powerful it is"
+health: 1500
+size: 3
+reloadTime: 80
+shootShake: 3
+range: 150
+targetAir: false
+shots: 4
+maxAmmo: 20
+shootEffect: none
+smokeEffect: none
+shootSound: shotgun
+requirements:[
+    titanium/1000
+    graphite/500
+  silicon/300
+  steel/800
+  tugteno/1000
+]
+research: fuse
+category: turret

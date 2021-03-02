@@ -1,0 +1,16 @@
+name: Graphene amoon
+description : a super fast ammunition that when it crosses enemies they are poisoned with acid and crosses enemies explosivenes
+hardness: 5
+cost: 0
+color:695A71FF
+explosiveness: 0.0
+radioactivity:  0.0
+flammability: 0.0
+research:{
+  parent: selenita-ammon
+  requirements:[
+	  Graphene/100
+	  steel/200
+	  selenita/100
+  ]
+  }

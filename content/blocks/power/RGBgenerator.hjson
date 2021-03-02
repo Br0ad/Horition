@@ -1,0 +1,18 @@
+Type: DecayGenerator
+name: RGB Generator
+description: It uses the heat of radioactive compounds being enriched with a large mass of heat to produce energy
+itemCapacity: 30
+health: 700
+powerProduction: 10
+size: 3
+requirements: [
+  lead/150
+  silicon/100
+  titanium/180
+  thorium/150
+  phase-fabric/50
+  selenita/125
+  tugteno/90
+]
+category: power
+research: rtg-generator

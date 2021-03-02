@@ -1,0 +1,16 @@
+name: electric missil
+description : It is a missile that when colliding releases powerful electric sparks
+hardness: 8
+cost: 0
+color:6974C4FF
+explosiveness: 7.0
+radioactivity:  0.0
+flammability: 4.0
+research:{
+  parent: fire-missil
+  requirements:[
+	  copper/5000
+	  silicon/1000
+	  selenita/2000
+  ]
+  }

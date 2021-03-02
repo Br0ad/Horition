@@ -1,0 +1,16 @@
+name: steel amoon
+description : this ammo can pierce enemies with low speed
+hardness: 2
+cost: 0
+color:615D5DFF
+explosiveness: 0.0
+radioactivity:  0.0
+flammability: 0.0
+research:{
+  parent: tugteno-ammon
+  requirements:[
+	  tugteno/100
+	  steel/200
+	  titanium/100
+  ]
+  }

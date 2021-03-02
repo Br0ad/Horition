@@ -1,0 +1,19 @@
+localizedName: Divisor
+description: "shoot energy balls that divide into multiple fragments"
+size: 3
+range: 200
+health: 800
+reloadTime: 80
+shots: 1
+inaccuracy: 0
+smokeEffect: none
+shootSound: laser
+outlineIcon: true
+requirements: [
+  tugteno/235
+  silicon/135
+  lead/180
+  steel/90
+]
+category: turret
+research: lancer

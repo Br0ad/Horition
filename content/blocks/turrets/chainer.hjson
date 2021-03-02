@@ -1,0 +1,26 @@
+
+name: Chainer
+description: "It is a mega machine gun that has double the power of [red] the mini gun[]"
+health: 800
+size: 3
+range: 250
+reloadTime: 100
+inaccuracy: 0
+recoilAmount: 3
+shots: 2
+spread: 9
+shootShake: 0
+shootCone: 24
+xRand: 1
+maxAmmo: 30
+ammoUseEffect: casing2
+smokeEffect: none
+shootSound: shootBig
+requirements:[
+    titanium/500
+    tugteno/250
+    steel/140
+    Graphene/130
+]
+research: minigun
+category: turret

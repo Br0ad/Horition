@@ -1,0 +1,21 @@
+
+name: Launcher
+description: "He's a special missile launcher but he can't take all the missiles only the basics"
+health: 600
+size: 2
+range: 200
+reloadTime: 55
+shots: 1
+maxAmmo: 30
+inaccuracy: 0.9
+smokeEffect: none
+shootSound: artillery
+requirements:[
+    titanium/250
+    silicon/130
+    tugteno/120
+    steel/100
+    Graphene/80
+]
+research: ripple
+category: turret

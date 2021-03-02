@@ -1,0 +1,33 @@
+name: Heat Generator
+description: This generator uses the high temperatures of the slag to burn the carbon more intensively to improve energy production.
+size: 3
+health:800
+powerProduction: 24
+itemDuration: 200
+defaults: true
+hasItems: true
+hasLiquids: true
+consumes: {
+items:{
+  items: [
+   coal/3
+  ]
+ booster: true
+ optional: false
+ },
+liquid: {
+  liquid: slag
+  amount: 0.01
+}
+}
+requirements: [
+  copper/120
+  titanium/180
+  silicon/100
+  graphite/120
+  metaglass/80
+]
+category: power
+research: thermal-generator
+ambientSound: smelter
+ambientSoundVolume: 0.05

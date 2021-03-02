@@ -1,0 +1,32 @@
+name : Tungsten Compressor
+description: it can make tungsten with titanium and lead with ease with its large pins
+health: 350
+size: 2
+hasLiquids: true
+hasItems: true
+craftTime: 150
+craftEffect: steam
+consumes: {
+  power: 1.2
+  items: {
+    items: [
+      lead/2
+      titanium/2
+    ]
+  }
+  liquid: {
+        liquid: water
+        amount: 0.05
+      }
+}
+requirements: [
+  copper/200
+  titanium/100
+  graphite/25
+  lead/100
+]
+category: crafting
+research: graphite-press
+ambientSound: machine
+ambientSoundVolume: 0.3
+outputItem: tugteno/1

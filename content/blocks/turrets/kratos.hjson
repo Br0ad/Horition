@@ -1,0 +1,26 @@
+
+
+name: Katros
+description: "It's mega missile Launcher launches huge bursts of missiles ready to destroy athens"
+health: 600
+size: 3
+range: 350
+reloadTime: 30
+cooldown: 0.03
+shots: 3
+burstSpacing: 14
+maxAmmo: 60
+inaccuracy: 5
+smokeEffect: none
+shootSound: artillery
+requirements:[
+    titanium/500
+    silicon/250
+    tugteno/300
+    steel/150
+    graphite/100
+    Graphene/150
+    selenita/200
+]
+research: Launcher
+category: turret

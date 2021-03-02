@@ -1,0 +1,26 @@
+name: SteamPunker Genetator
+description: It generates energy by burning materials in its boilers that heats the water in constant steam
+health: 800
+size:3
+powerProduction: 15
+itemDuration: 200
+hasLiquids: true
+minItemEfficiency: 1 
+turbineSpeed: 7
+consumes: {
+liquid: {
+  liquid: water
+  amount: 0.4
+}
+}
+requirements: [
+  titanium/220
+  silicon/80
+  tugteno/135
+  graphite/120
+  steel/160
+]
+category: power
+research: steam-generator
+ambientSound: smelter
+ambientSoundVolume: 0.05

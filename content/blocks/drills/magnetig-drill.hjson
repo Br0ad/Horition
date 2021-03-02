@@ -1,0 +1,39 @@
+Type: Drill
+name: Magnetic Drill
+description: Instead using blade drills, it used a concentrated magnetic plates to easily lift metallic contents, requires Cryofluid to operate and Lead for boosting it's operational efficiency
+drillTime: 170
+tier: 6
+warmupSpeed: 0.02
+liquidBoostIntensity: 2
+liquidCapacity: 50
+rotateSpeed: 10
+hasPower: true
+heatColor: CCFFFFFF
+drawRim: true
+size: 3
+consumes: {
+  power: 8
+    liquid: {
+          liquid: oil-gel
+          amount: 0.2
+          booster: true
+           optional: true
+        }
+    liquid: {
+              liquid: cryofluid
+              amount: 0.4
+              booster: true
+               optional: true
+            }
+  }
+requirements: [
+  Graphene/100
+  titanium/200
+  selenita/50
+  steel/120
+  silicon/150
+  tugteno/200
+  thorium/100
+]
+category: production
+research: laser-drill

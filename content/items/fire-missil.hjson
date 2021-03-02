@@ -1,0 +1,16 @@
+name: Fire Missil
+description : It is a missile that when colliding sets fire to everything in its path
+hardness: 8
+cost: 0
+color:BC5452FF
+explosiveness: 9.9
+radioactivity:  0.0
+flammability: 5.0
+research:{
+  parent: graphene-missil
+  requirements:[
+	  steel/500
+	  tugteno/500
+	  pyratite/80
+  ]
+  }

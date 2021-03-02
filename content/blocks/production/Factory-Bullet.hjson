@@ -1,0 +1,19 @@
+localizedName: Factory Bullets
+description: build ammo with your gears with ease
+itemCapacity: 40
+liquidCapacity  : 0
+size  : 3
+health  : 1000
+craftEffect  :   pulverizeMedium
+updateEffect  :   none
+dumpToggle  : false
+requirements: [
+   copper/400
+   titanium/800
+   lead/600
+   tugteno/1000
+   steel/1000
+ ]
+category: crafting
+research: minigun
+

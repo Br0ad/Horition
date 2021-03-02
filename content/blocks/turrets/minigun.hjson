@@ -1,0 +1,22 @@
+
+name: MiniGun
+description: "It is a small machine gun that fires very fast but needs to warm up to have all its power"
+health: 800
+size: 2
+range: 300
+reloadTime: 100
+shots: 1
+rotateSpeed: 5
+maxAmmo: 30
+inaccuracy: 0
+ammoUseEffect: casing3
+smokeEffect: none
+shootSound: shootBig
+requirements:[
+    titanium/220
+    tugteno/120
+    steel/100
+    Graphene/50
+]
+research: cyclone
+category: turret

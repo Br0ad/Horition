@@ -1,0 +1,12 @@
+type: Wall
+name: Steel Wall Large
+description: It is a very resistant and cheap wall to make
+size: 2
+healt: 2800
+flashHit: true
+chanceDeflect: 1
+requirements: [
+steel/24
+]
+research: steal-wall
+category: defense
