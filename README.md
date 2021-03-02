@@ -12,7 +12,7 @@ horition does not use other mods as a dependency you can download it without nee
 
 Trailer
 
-![Trailer Horition mod](https://youtu.be/VZw78nk_FIQ)
+[Trailer Horition mod](https://youtu.be/VZw78nk_FIQ)
 
 
 # lib used in the mod
