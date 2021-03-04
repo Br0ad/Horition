@@ -1,117 +1,154 @@
-print("mindhorition is mod loading")
-try {
-let Veri = 0
-  // libs
-  let Libs = Seq.with("multi-lib", "Missil-lib", "ammon-lib","SoundH",)
+print("horition is mod loading")
+// sorry meep need you code D:
+global.pm = {};
+const loadFile = (prev, array) => {
+  var results = [];
+  var names = [];
 
-  Libs.each(e => {
-    try {
-      require(e);
-      print("Loding lib " + e)
-    } catch (err) {
-      print("[hori-Pankiwi] error loding lib " + e + "  " + err)
-    }
-    Veri++
-  })
+  var p = prev;
 
-  // types
-  let Types = Seq.with("ChargerTurret","RainTurret","WaterWindGenerator","WindGenerator")
+  for (var i = 0; i < array.length; i++) {
+    var file = array[i];
 
-  Types.each(e => {
-    try {
-      require("types/" + e);
-      print("Loding turret Type " + e)
-    } catch (err) {
-      print("[hori-Pankiwi] error loding turret Type " + e + "  " + err)
-    }
-    Veri++
-  })
+    if (typeof(file) === "object") {
+      p.push(file.name);
+      var temp = loadFile(p, file.childs);
 
+      results = results.concat(temp.res);
+      names = names.concat(temp.fileNames);
 
-  //turrets
+      p.pop();
+    } else {
+      var temp = p.join("/") + "/" + file;
 
-  let Turrets = Seq.with("infuser", "launchMisel", "flamer", "claimer", "Launcher", "kratos", "trusher", "sprayer", "troncer", "minigun", "chainer", "onu", "sword", "StarShip", "star", "Tripo", "moon","StarFury", "DremurChaos", "divisor", "bictfuse", "Frigge");
+      results.push(temp);
+      names.push(file);
+    };
+  };
 
-  Turrets.each(e => {
-    try {
-      require("blocks/turrets/" + e);
-      print("Creator turret " + e)
-    } catch (err) {
-      print("[hori-Pankiwi] error creator turret " + e + "  " + err)
-    }
-    Veri++
-  })
+  return {
+    res: results,
+    fileNames: names
+  };
+};
 
-  //defense
-
-  let defense = Seq.with("Pulsar-generator","Pulsar_matter");
-
-  defense.each(e => {
-    try {
-      require("blocks/defense/" + e);
-      print("Creator defense " + e)
-    } catch (err) {
-      print("[hori-Pankiwi] error creator defense " + e + "  " + err)
-    }
-    Veri++
-  })
-
-
-
-  ///productions
-
-  let productions = Seq.with("presCompres", "steelSmelter", "meltion", "Constructor-missile", "Factory-Bullet", "oilRefiner", "oil-mixer", "grafeno-Refiner", "Industrial-tungsten-compressor", "Selenita-Reformer","aaaaa");
-
-  productions.each(e => {
-    try {
-      require("blocks/crafter/" + e);
-      print("Creator Crafter " + e)
-    } catch (err) {
-      print("[hori-Pankiwi] error creator Crafter " + e + "  " + err)
-    }
-    Veri++
-  })
-
-  //Drills
-  let Drill = Seq.with("ionic-drill")
-
-  Drill.each(e => {
-    try {
-      require("blocks/Drill/" + e)
-      print("Creator Drill " + e)
-    } catch (err) {
-      print("[hori-Pankiwi] error creator Drill " + e + "  " + err)
-    }
-    Veri++
-  })
-
-  //powers
-
-  let powers = Seq.with("powerProductor", "winds", "water-winds")
-
-  powers.each(e => {
-    try {
-      require("blocks/power/" + e);
-      print("Creator Power " + e)
-    } catch (err) {
-      print("[hori-Pankiwi] error creator Power " + e + "  " + err)
-    }
-    Veri++
-  })
-
-
-  ///planet
-
-  //require("planets/Starion");
-  
-  print("is loading " + Veri + " scripts")
-
-  print("mindhorition finish load")
-
-} catch (e) {
-  print(e);
-  print("ho no  error D:");
+//Basically just folders and the stuff inside those folders.
+//First load libraries, then items, then stuff that may or may not need those items.
+const script = [
+  {
+    name: "crafter",
+    childs: [
+      {
+        name: "Starting",
+        childs: ["presCompres", "steelSmelter", "grafeno-Refiner", "Industrial-tungsten-compressor", "Selenita-Reformer"]
+      },
+      {
+        name: "liquid",
+        childs: ["oilRefiner", "oil-mixer"]
+      },
+      {
+        name: "other",
+        childs: ["meltion"]
+      },
+      {
+        name: "multi",
+        childs: ["Factory-Bullet", "Constructor-missile"]
+      }
+      ]
+  },
+  {
+    name: "defense",
+    childs: [
+      {
+        name: "pulsar",
+        childs: ["Pulsar-generator", "Pulsar_matter"]
+      }
+      ]
+  },
+  {
+    name: "Drill",
+    childs: [
+      {
+        name: "Drill-laser",
+        childs: ["ionic-drill"]
+      }
+    ]
+  },
+  {
+    name: "power",
+    childs: [
+      {
+        name: "winds",
+        childs: ["winds"]
+      },
+      {
+        name: "waterWind",
+        childs: ["water-winds"]
+},
+      {
+        name: "other",
+        childs: ["powerProductor"]
 }
+      ]
+  },
+  {
+    name: "turrets",
+    childs: [
+      {
+        name: "Missile",
+        childs: ["infuser","launchMisel"]
+      },
+      {
+        name: "MissileItem",
+        childs: ["Launcher","kratos"]
+      },
+      {
+        name: "StarndsTurret",
+        childs: ["trusher","sprayer","troncer"]
+      },
+      {
+        name: "Spayers",
+        childs: ["star","Tripo","moon"]
+      },
+      {
+        name: "guns",
+        childs: ["minigun","chainer"]
+      },
+      {
+        name: "Fire",
+        childs: ["flamer","claimer"]
+      },
+      {
+        name: "laser",
+        childs: ["onu","sword","StarShip"]
+      },
+      {
+        name: "Stars",
+        childs: ["StarFury","DremurChaos"]
+      },
+      {
+        name: "Misc",
+        childs: ["Frigge","divisor","bictfuse"]
+      }
+      ]
+  },
+  {
+    name: "planets",
+    childs: ["Starion","StarionGenerator"]
+  }
+];
 
-const autoUpdate = require("autoupdate");
-autoUpdate.autoUpdate("hori", "pankiwi/MindHorition", "main");
+const loadedScript = loadFile([], script);
+for (var i = 0; i < loadedScript.res.length; i++) {
+  var res = loadedScript.res[i];
+  var name = loadedScript.fileNames[i];
+  try {
+    var content = require("hori/" + res);
+    print("Creator finish:" + res)
+    if (typeof(content) !== "undefined") {
+      global.pm[name] = content;
+    };
+  } catch (e) {
+    print("Creator error:" + e);
+  };
+};

@@ -1,1 +1,1 @@
-StarionPlanetGenerator  new PlanetGenerator("StarionPlanetGenerator");
+StarionPlanetGenerator = new PlanetGenerator("StarionPlanetGenerator");
