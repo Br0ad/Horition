@@ -5,7 +5,7 @@ size: 3
 hasLiquids: true
 itemCapacity: 40
 hasItems: true
-craftTime: 120
+craftTime: 240
 craftEffect: steam
 consumes: {
   power: 3
@@ -16,15 +16,15 @@ consumes: {
     ]
   }
   liquid: {
-        liquid: oil-gel
-        amount: 0.20
+        liquid: slag
+        amount: 5
       }
 }
 requirements: [
   titanium/500
-  silicon/100
+  silicon/150
   lead/300
-  tugteno/150
+  tugteno/180
   steel/200
   selenita/50
 ]
